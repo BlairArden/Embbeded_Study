@@ -1,0 +1,15 @@
+#include "Constant.h"
+
+double HERO_SKILL_1_DAMAGE = 1.0;
+double HERO_SKILL_2_DAMAGE = 2.0;
+double HERO_SKILL_3_DAMAGE = 3.0;
+double HERO_SKILL_4_MP_RECOVERY = 4.0;
+double HERO_SKILL_4_HP_RECOVERY = 4.0;
+
+double HERO_SKILL_1_MPCOST = 1.0;
+double HERO_SKILL_2_MPCOST = 2.0;
+double HERO_SKILL_3_MPCOST = 3.0;
+double HERO_SKILL_4_MPCOST = 2.0;
+
+double ONE_TURN_MP_RECOVERY = 1.0;
+
