@@ -1,8 +1,20 @@
 # ninja log v6
 88	450	8169585123932683	CMakeFiles/Embedded_dev.dir/Task_1/Monster.cpp.obj	aa7b6b7d6cc4e641
+55	824	8172253726331505	Task_1/CMakeFiles/Task_1.dir/Hero.cpp.obj	118795c60af35a7d
 58	535	8169585123633481	CMakeFiles/Embedded_dev.dir/Task_1/Hero.cpp.obj	b23f20c38c7d3724
 112	754	8169581271156103	CMakeFiles/Embedded_dev.dir/Task_1/Character.cpp.obj	93d7388ac512d96f
-1603	2213	8169619793959273	Embedded_dev.exe	4f2ef5fd9f401274
-25	1599	8169619778180584	CMakeFiles/Embedded_dev.dir/main.cpp.obj	767208874ca992bc
-30	758	8172247459550062	build.ninja	75a6150580b675f8
+30	758	8172258818789853	build.ninja	75a6150580b675f8
 72	425	8169585123763137	CMakeFiles/Embedded_dev.dir/Task_1/Constant.cpp.obj	829a8f61ddc4946
+25	1599	8169619778180584	CMakeFiles/Embedded_dev.dir/main.cpp.obj	767208874ca992bc
+43	751	8172253726211849	Task_1/CMakeFiles/Task_1.dir/Character.cpp.obj	6aac83dd17c5d66
+1603	2213	8169619793959273	Embedded_dev.exe	4f2ef5fd9f401274
+90	777	8172253726680570	Task_1/CMakeFiles/Task_1.dir/Monster.cpp.obj	b9b1335ca433676f
+74	801	8172253726521000	Task_1/CMakeFiles/Task_1.dir/Constant.cpp.obj	589604029143784e
+29	1015	8172253726072198	Task_1/CMakeFiles/Task_1.dir/main.cpp.obj	b31c3eee9cf5b817
+1017	2002	8172253735961816	Task_1/Task_1.exe	15a87dac90766941
+4	139	8172253932399272	Task_2/CMakeFiles/Task_2.dir/main.cpp.obj	e97a3fdde09cd112
+140	498	8172253933755652	Task_2/Task_2.exe	5b7b66e96b810e61
+19	131	8172259084345300	CMakeFiles/Embedded_dev.dir/main.cpp.obj	767208874ca992bc
+132	642	8172259085492249	Embedded_dev.exe	76ffeb2bc319cb9f
+3	618	8172259266005019	CMakeFiles/Embedded_dev.dir/main.cpp.obj	767208874ca992bc
+619	896	8172259272176894	Embedded_dev.exe	76ffeb2bc319cb9f

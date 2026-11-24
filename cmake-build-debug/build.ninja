@@ -55,42 +55,6 @@ build CMakeFiles/Embedded_dev.dir/main.cpp.obj: CXX_COMPILER__Embedded_dev_unsca
   OBJECT_DIR = CMakeFiles\Embedded_dev.dir
   OBJECT_FILE_DIR = CMakeFiles\Embedded_dev.dir
 
-build CMakeFiles/Embedded_dev.dir/Task_1/Character.cpp.obj: CXX_COMPILER__Embedded_dev_unscanned_Debug F$:/all_c++_file/Embedded_dev/Task_1/Character.cpp || cmake_object_order_depends_target_Embedded_dev
-  DEP_FILE = CMakeFiles\Embedded_dev.dir\Task_1\Character.cpp.obj.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Embedded_dev.dir
-  OBJECT_FILE_DIR = CMakeFiles\Embedded_dev.dir\Task_1
-
-build CMakeFiles/Embedded_dev.dir/Task_1/Hero.cpp.obj: CXX_COMPILER__Embedded_dev_unscanned_Debug F$:/all_c++_file/Embedded_dev/Task_1/Hero.cpp || cmake_object_order_depends_target_Embedded_dev
-  DEP_FILE = CMakeFiles\Embedded_dev.dir\Task_1\Hero.cpp.obj.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Embedded_dev.dir
-  OBJECT_FILE_DIR = CMakeFiles\Embedded_dev.dir\Task_1
-
-build CMakeFiles/Embedded_dev.dir/Task_1/Constant.cpp.obj: CXX_COMPILER__Embedded_dev_unscanned_Debug F$:/all_c++_file/Embedded_dev/Task_1/Constant.cpp || cmake_object_order_depends_target_Embedded_dev
-  DEP_FILE = CMakeFiles\Embedded_dev.dir\Task_1\Constant.cpp.obj.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Embedded_dev.dir
-  OBJECT_FILE_DIR = CMakeFiles\Embedded_dev.dir\Task_1
-
-build CMakeFiles/Embedded_dev.dir/Task_1/Monster.cpp.obj: CXX_COMPILER__Embedded_dev_unscanned_Debug F$:/all_c++_file/Embedded_dev/Task_1/Monster.cpp || cmake_object_order_depends_target_Embedded_dev
-  DEP_FILE = CMakeFiles\Embedded_dev.dir\Task_1\Monster.cpp.obj.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Embedded_dev.dir
-  OBJECT_FILE_DIR = CMakeFiles\Embedded_dev.dir\Task_1
-
-build CMakeFiles/Embedded_dev.dir/Task_1/main.cpp.obj: CXX_COMPILER__Embedded_dev_unscanned_Debug F$:/all_c++_file/Embedded_dev/Task_1/main.cpp || cmake_object_order_depends_target_Embedded_dev
-  DEP_FILE = CMakeFiles\Embedded_dev.dir\Task_1\main.cpp.obj.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Embedded_dev.dir
-  OBJECT_FILE_DIR = CMakeFiles\Embedded_dev.dir\Task_1
-
-build CMakeFiles/Embedded_dev.dir/Task_2/main.cpp.obj: CXX_COMPILER__Embedded_dev_unscanned_Debug F$:/all_c++_file/Embedded_dev/Task_2/main.cpp || cmake_object_order_depends_target_Embedded_dev
-  DEP_FILE = CMakeFiles\Embedded_dev.dir\Task_2\main.cpp.obj.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Embedded_dev.dir
-  OBJECT_FILE_DIR = CMakeFiles\Embedded_dev.dir\Task_2
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Embedded_dev
@@ -99,7 +63,7 @@ build CMakeFiles/Embedded_dev.dir/Task_2/main.cpp.obj: CXX_COMPILER__Embedded_de
 #############################################
 # Link the executable Embedded_dev.exe
 
-build Embedded_dev.exe: CXX_EXECUTABLE_LINKER__Embedded_dev_Debug CMakeFiles/Embedded_dev.dir/main.cpp.obj CMakeFiles/Embedded_dev.dir/Task_1/Character.cpp.obj CMakeFiles/Embedded_dev.dir/Task_1/Hero.cpp.obj CMakeFiles/Embedded_dev.dir/Task_1/Constant.cpp.obj CMakeFiles/Embedded_dev.dir/Task_1/Monster.cpp.obj CMakeFiles/Embedded_dev.dir/Task_1/main.cpp.obj CMakeFiles/Embedded_dev.dir/Task_2/main.cpp.obj
+build Embedded_dev.exe: CXX_EXECUTABLE_LINKER__Embedded_dev_Debug CMakeFiles/Embedded_dev.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Embedded_dev.dir
@@ -133,9 +97,169 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# F:/all_c++_file/Embedded_dev/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Task_1
+
+
+#############################################
+# Order-only phony target for Task_1
+
+build cmake_object_order_depends_target_Task_1: phony || .
+
+build Task_1/CMakeFiles/Task_1.dir/main.cpp.obj: CXX_COMPILER__Task_1_unscanned_Debug F$:/all_c++_file/Embedded_dev/Task_1/main.cpp || cmake_object_order_depends_target_Task_1
+  DEP_FILE = Task_1\CMakeFiles\Task_1.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = Task_1\CMakeFiles\Task_1.dir
+  OBJECT_FILE_DIR = Task_1\CMakeFiles\Task_1.dir
+
+build Task_1/CMakeFiles/Task_1.dir/Character.cpp.obj: CXX_COMPILER__Task_1_unscanned_Debug F$:/all_c++_file/Embedded_dev/Task_1/Character.cpp || cmake_object_order_depends_target_Task_1
+  DEP_FILE = Task_1\CMakeFiles\Task_1.dir\Character.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = Task_1\CMakeFiles\Task_1.dir
+  OBJECT_FILE_DIR = Task_1\CMakeFiles\Task_1.dir
+
+build Task_1/CMakeFiles/Task_1.dir/Hero.cpp.obj: CXX_COMPILER__Task_1_unscanned_Debug F$:/all_c++_file/Embedded_dev/Task_1/Hero.cpp || cmake_object_order_depends_target_Task_1
+  DEP_FILE = Task_1\CMakeFiles\Task_1.dir\Hero.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = Task_1\CMakeFiles\Task_1.dir
+  OBJECT_FILE_DIR = Task_1\CMakeFiles\Task_1.dir
+
+build Task_1/CMakeFiles/Task_1.dir/Constant.cpp.obj: CXX_COMPILER__Task_1_unscanned_Debug F$:/all_c++_file/Embedded_dev/Task_1/Constant.cpp || cmake_object_order_depends_target_Task_1
+  DEP_FILE = Task_1\CMakeFiles\Task_1.dir\Constant.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = Task_1\CMakeFiles\Task_1.dir
+  OBJECT_FILE_DIR = Task_1\CMakeFiles\Task_1.dir
+
+build Task_1/CMakeFiles/Task_1.dir/Monster.cpp.obj: CXX_COMPILER__Task_1_unscanned_Debug F$:/all_c++_file/Embedded_dev/Task_1/Monster.cpp || cmake_object_order_depends_target_Task_1
+  DEP_FILE = Task_1\CMakeFiles\Task_1.dir\Monster.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = Task_1\CMakeFiles\Task_1.dir
+  OBJECT_FILE_DIR = Task_1\CMakeFiles\Task_1.dir
+
+build Task_1/CMakeFiles/Task_1.dir/__/main.cpp.obj: CXX_COMPILER__Task_1_unscanned_Debug F$:/all_c++_file/Embedded_dev/main.cpp || cmake_object_order_depends_target_Task_1
+  DEP_FILE = Task_1\CMakeFiles\Task_1.dir\__\main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = Task_1\CMakeFiles\Task_1.dir
+  OBJECT_FILE_DIR = Task_1\CMakeFiles\Task_1.dir\__
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Task_1
+
+
+#############################################
+# Link the executable Task_1\Task_1.exe
+
+build Task_1/Task_1.exe: CXX_EXECUTABLE_LINKER__Task_1_Debug Task_1/CMakeFiles/Task_1.dir/main.cpp.obj Task_1/CMakeFiles/Task_1.dir/Character.cpp.obj Task_1/CMakeFiles/Task_1.dir/Hero.cpp.obj Task_1/CMakeFiles/Task_1.dir/Constant.cpp.obj Task_1/CMakeFiles/Task_1.dir/Monster.cpp.obj Task_1/CMakeFiles/Task_1.dir/__/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Task_1\CMakeFiles\Task_1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Task_1\Task_1.exe
+  TARGET_IMPLIB = Task_1\libTask_1.dll.a
+  TARGET_PDB = Task_1.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build Task_1/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D F:\all_c++_file\Embedded_dev\cmake-build-debug\Task_1 && "F:\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Task_1/edit_cache: phony Task_1/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Task_1/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D F:\all_c++_file\Embedded_dev\cmake-build-debug\Task_1 && "F:\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SF:\all_c++_file\Embedded_dev -BF:\all_c++_file\Embedded_dev\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Task_1/rebuild_cache: phony Task_1/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# F:/all_c++_file/Embedded_dev/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Task_2
+
+
+#############################################
+# Order-only phony target for Task_2
+
+build cmake_object_order_depends_target_Task_2: phony || .
+
+build Task_2/CMakeFiles/Task_2.dir/main.cpp.obj: CXX_COMPILER__Task_2_unscanned_Debug F$:/all_c++_file/Embedded_dev/Task_2/main.cpp || cmake_object_order_depends_target_Task_2
+  DEP_FILE = Task_2\CMakeFiles\Task_2.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = Task_2\CMakeFiles\Task_2.dir
+  OBJECT_FILE_DIR = Task_2\CMakeFiles\Task_2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Task_2
+
+
+#############################################
+# Link the executable Task_2\Task_2.exe
+
+build Task_2/Task_2.exe: CXX_EXECUTABLE_LINKER__Task_2_Debug Task_2/CMakeFiles/Task_2.dir/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Task_2\CMakeFiles\Task_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Task_2\Task_2.exe
+  TARGET_IMPLIB = Task_2\libTask_2.dll.a
+  TARGET_PDB = Task_2.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build Task_2/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D F:\all_c++_file\Embedded_dev\cmake-build-debug\Task_2 && "F:\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Task_2/edit_cache: phony Task_2/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Task_2/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D F:\all_c++_file\Embedded_dev\cmake-build-debug\Task_2 && "F:\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SF:\all_c++_file\Embedded_dev -BF:\all_c++_file\Embedded_dev\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Task_2/rebuild_cache: phony Task_2/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build Embedded_dev: phony Embedded_dev.exe
+
+build Task_1: phony Task_1/Task_1.exe
+
+build Task_1.exe: phony Task_1/Task_1.exe
+
+build Task_2: phony Task_2/Task_2.exe
+
+build Task_2.exe: phony Task_2/Task_2.exe
 
 # =============================================================================
 # Folder targets.
@@ -145,7 +269,21 @@ build Embedded_dev: phony Embedded_dev.exe
 #############################################
 # Folder: F:/all_c++_file/Embedded_dev/cmake-build-debug
 
-build all: phony Embedded_dev.exe
+build all: phony Embedded_dev.exe Task_1/all Task_2/all
+
+# =============================================================================
+
+#############################################
+# Folder: F:/all_c++_file/Embedded_dev/cmake-build-debug/Task_1
+
+build Task_1/all: phony Task_1/Task_1.exe
+
+# =============================================================================
+
+#############################################
+# Folder: F:/all_c++_file/Embedded_dev/cmake-build-debug/Task_2
+
+build Task_2/all: phony Task_2/Task_2.exe
 
 # =============================================================================
 # Built-in targets
@@ -154,14 +292,14 @@ build all: phony Embedded_dev.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake F$:/all_c++_file/Embedded_dev/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake F$:/all_c++_file/Embedded_dev/CMakeLists.txt F$:/all_c++_file/Embedded_dev/Task_1/CMakeLists.txt F$:/all_c++_file/Embedded_dev/Task_2/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake F$:/all_c++_file/Embedded_dev/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake F$:/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake F$:/all_c++_file/Embedded_dev/CMakeLists.txt F$:/all_c++_file/Embedded_dev/Task_1/CMakeLists.txt F$:/all_c++_file/Embedded_dev/Task_2/CMakeLists.txt: phony
 
 
 #############################################
