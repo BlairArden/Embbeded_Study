@@ -4,5 +4,4 @@ add_executable(Task_1
         Hero.cpp
         Constant.cpp
         Monster.cpp
-        ../main.cpp
 )

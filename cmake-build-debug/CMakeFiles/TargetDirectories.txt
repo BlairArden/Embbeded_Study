@@ -1,9 +1,0 @@
-F:/all_c++_file/Embedded_dev/cmake-build-debug/CMakeFiles/Embedded_dev.dir
-F:/all_c++_file/Embedded_dev/cmake-build-debug/CMakeFiles/edit_cache.dir
-F:/all_c++_file/Embedded_dev/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-F:/all_c++_file/Embedded_dev/cmake-build-debug/Task_1/CMakeFiles/Task_1.dir
-F:/all_c++_file/Embedded_dev/cmake-build-debug/Task_1/CMakeFiles/edit_cache.dir
-F:/all_c++_file/Embedded_dev/cmake-build-debug/Task_1/CMakeFiles/rebuild_cache.dir
-F:/all_c++_file/Embedded_dev/cmake-build-debug/Task_2/CMakeFiles/Task_2.dir
-F:/all_c++_file/Embedded_dev/cmake-build-debug/Task_2/CMakeFiles/edit_cache.dir
-F:/all_c++_file/Embedded_dev/cmake-build-debug/Task_2/CMakeFiles/rebuild_cache.dir
