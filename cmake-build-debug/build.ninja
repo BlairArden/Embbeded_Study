@@ -79,6 +79,18 @@ build CMakeFiles/Embedded_dev.dir/Task_1/Monster.cpp.obj: CXX_COMPILER__Embedded
   OBJECT_DIR = CMakeFiles\Embedded_dev.dir
   OBJECT_FILE_DIR = CMakeFiles\Embedded_dev.dir\Task_1
 
+build CMakeFiles/Embedded_dev.dir/Task_1/main.cpp.obj: CXX_COMPILER__Embedded_dev_unscanned_Debug F$:/all_c++_file/Embedded_dev/Task_1/main.cpp || cmake_object_order_depends_target_Embedded_dev
+  DEP_FILE = CMakeFiles\Embedded_dev.dir\Task_1\main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Embedded_dev.dir
+  OBJECT_FILE_DIR = CMakeFiles\Embedded_dev.dir\Task_1
+
+build CMakeFiles/Embedded_dev.dir/Task_2/main.cpp.obj: CXX_COMPILER__Embedded_dev_unscanned_Debug F$:/all_c++_file/Embedded_dev/Task_2/main.cpp || cmake_object_order_depends_target_Embedded_dev
+  DEP_FILE = CMakeFiles\Embedded_dev.dir\Task_2\main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Embedded_dev.dir
+  OBJECT_FILE_DIR = CMakeFiles\Embedded_dev.dir\Task_2
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Embedded_dev
@@ -87,7 +99,7 @@ build CMakeFiles/Embedded_dev.dir/Task_1/Monster.cpp.obj: CXX_COMPILER__Embedded
 #############################################
 # Link the executable Embedded_dev.exe
 
-build Embedded_dev.exe: CXX_EXECUTABLE_LINKER__Embedded_dev_Debug CMakeFiles/Embedded_dev.dir/main.cpp.obj CMakeFiles/Embedded_dev.dir/Task_1/Character.cpp.obj CMakeFiles/Embedded_dev.dir/Task_1/Hero.cpp.obj CMakeFiles/Embedded_dev.dir/Task_1/Constant.cpp.obj CMakeFiles/Embedded_dev.dir/Task_1/Monster.cpp.obj
+build Embedded_dev.exe: CXX_EXECUTABLE_LINKER__Embedded_dev_Debug CMakeFiles/Embedded_dev.dir/main.cpp.obj CMakeFiles/Embedded_dev.dir/Task_1/Character.cpp.obj CMakeFiles/Embedded_dev.dir/Task_1/Hero.cpp.obj CMakeFiles/Embedded_dev.dir/Task_1/Constant.cpp.obj CMakeFiles/Embedded_dev.dir/Task_1/Monster.cpp.obj CMakeFiles/Embedded_dev.dir/Task_1/main.cpp.obj CMakeFiles/Embedded_dev.dir/Task_2/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Embedded_dev.dir

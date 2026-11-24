@@ -11,4 +11,6 @@ add_executable(Embedded_dev main.cpp
         Task_1/Constant.cpp
         Task_1/Constant.h
         Task_1/Monster.cpp
-        Task_1/Monster.h)
+        Task_1/Monster.h
+        Task_1/main.cpp
+        Task_2/main.cpp)
